@@ -12,7 +12,6 @@ import java.util.List;
 public class CourseController {
 
     private CourseService courseService;
-
     @Autowired
     public CourseController(CourseService courseService){
         this.courseService = courseService;
