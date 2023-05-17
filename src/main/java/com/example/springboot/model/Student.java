@@ -1,5 +1,4 @@
 package com.example.springboot.model;
-
 import jakarta.persistence.*;
 
 @Entity
