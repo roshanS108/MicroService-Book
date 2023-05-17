@@ -1,5 +1,4 @@
 package com.example.springboot.controller;
-
 import com.example.springboot.Service.StudentService;
 import com.example.springboot.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +26,4 @@ public class StudentController {
     public Student getByName(@RequestParam(value = "name", defaultValue = "roshan") String name) {
         return studentService.getByName(name);
     }
-
-
-
 }
